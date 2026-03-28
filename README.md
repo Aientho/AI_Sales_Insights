@@ -4,6 +4,56 @@ AI Sales Insights Dashboard Project
 # AI SALES INSIGHTS DASHBOARD
 # ==============================
 # End-to-end project using Streamlit
+## Problem Statement
+
+Sales teams often lack visibility into trends, future performance, and customer behavior, leading to poor decision-making.
+
+## Objective
+Build an AI-powered dashboard to:
+
+Forecast future sales
+Segment customers
+Generate actionable business insights
+
+##Solution Overview
+
+This project uses Machine Learning and data visualization to:
+
+Predict future sales using regression
+Segment customers using clustering
+Provide AI-driven recommendations
+
+## Architecture
+
+Data → Processing (Pandas) → ML Models → Streamlit Dashboard → Insights
+
+## Tech Stack
+Python (Pandas, NumPy, Scikit-learn)
+Streamlit
+Matplotlib
+
+## Features
+
+✔ Sales Forecasting (Next 10 Days)
+✔ Customer Segmentation (KMeans Clustering)
+✔ Interactive Dashboard
+✔ AI-Based Business Insights
+
+## Business Impact
+Enables proactive decision-making
+Identifies high-value customers
+Improves sales strategy planning
+▶️ How to Run
+pip install pandas numpy scikit-learn streamlit matplotlib
+streamlit run app.py
+📸 Demo
+
+(Add screenshots here after running)
+
+## Future Enhancements
+Integrate real-time CRM data
+Add OpenAI-based insights
+Deploy on cloud (AWS / Azure)
 
 import pandas as pd
 import numpy as np
